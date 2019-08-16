@@ -186,7 +186,7 @@ class BannerPlugin
 		<label for="banner_shortcode_field">
 		<?php esc_html_e( 'Shortcode do Banner', 'banner-plugin' ); ?>
 		</label>
-		<input type="text" readonly="readonly" id="banner_shortcode_field" onfocus="this.select();" name="banner_shortcode_field" value="[banner-cta id='<?php echo get_the_ID( $post_id ); ?>']" class="widefat code" />
+		<input type="text" readonly="readonly" id="banner_shortcode_field" onfocus="this.select();" name="banner_shortcode_field" value="[banner-cta id='<?php echo get_the_ID(); ?>']" class="widefat code" />
         </p>
         <?php
 	}
