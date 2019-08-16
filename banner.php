@@ -156,7 +156,7 @@ class BannerPlugin
 		/* OK, está seguro salvar os dados agora. */
 
 		// Sanitariza o input do usuário.
-		$banner_data = sanitize_text_field( $_POST['banner_url_field'] );
+		$banner_data = wp_unslash( sanitize_text_field( $_POST['banner_url_field'] ) );
 
 		// Atualiza o campo do meta.
 		update_post_meta( $post_id, '_banner_meta_value_key', $banner_data );
