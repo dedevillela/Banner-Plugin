@@ -13,7 +13,7 @@ Upload the Banner Plugin to your blog, activate it, and you're done!
 
 ### Banner Plugin Shortcode
 
-```
+```sh
 [banner-cta id="10"]
 ```
 
