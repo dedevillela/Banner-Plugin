@@ -180,13 +180,13 @@ class BannerPlugin
 		<label for="banner_url_field">
 		<?php esc_html_e( 'Insira a URL de destino', 'banner-plugin' ); ?>
 		</label>
-		<input type="url" id="banner_url_field" name="banner_url_field" value="<?php print esc_attr( $value ); ?>" class="widefat" />
+		<input type="url" id="banner_url_field" name="banner_url_field" value="<?php /* @noEscape */ echo esc_attr( $value ); ?>" class="widefat" />
         </p>
         <p class="description">
 		<label for="banner_shortcode_field">
 		<?php esc_html_e( 'Shortcode do Banner', 'banner-plugin' ); ?>
 		</label>
-		<input type="text" readonly="readonly" id="banner_shortcode_field" onfocus="this.select();" name="banner_shortcode_field" value="[banner-cta id='<?php print get_the_ID(); ?>']" class="widefat code" />
+		<input type="text" readonly="readonly" id="banner_shortcode_field" onfocus="this.select();" name="banner_shortcode_field" value="[banner-cta id='<?php /* @noEscape */ echo get_the_ID(); ?>']" class="widefat code" />
         </p>
         <?php
 	}
