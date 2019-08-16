@@ -189,13 +189,11 @@ class BannerPlugin
 
 	public function banner_shortcode( $atts ) {
 		// Cria o shortcode com o atributo "id".
-		extract(
-			shortcode_atts(
-				array(
-					'id' => '',
-				),
-				$atts
-			)
+		shortcode_atts(
+			array(
+				'id' => '',
+			),
+			$atts
 		);
 		// Retorna a saída HTML do shortcode.
 		if ( isset( $id ) ) {
