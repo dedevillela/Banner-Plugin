@@ -1,5 +1,5 @@
 # Banner-Plugin
-[![GPL2 Licence](https://img.shields.io/badge/License-GPL2-blue.svg)](LICENSE) [![GitHub issues](https://img.shields.io/github/issues/dedevillela/Banner-Plugin.svg)](https://GitHub.com/dedevillela/Banner-Plugin/issues) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4c2ae28ea23a466e9845b9cbc8b2aaca)](https://www.codacy.com/app/dedevillela/Banner-Plugin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dedevillela/Banner-Plugin&amp;utm_campaign=Badge_Grade)
+[![GPL2 Licence](https://img.shields.io/badge/License-GPL2-blue.svg)](LICENSE) [![GitHub release](https://img.shields.io/github/release/dedevillela/Banner-Plugin.svg)](https://github.com/dedevillela/Banner-Plugin/releases) [![GitHub issues](https://img.shields.io/github/issues/dedevillela/Banner-Plugin.svg)](https://GitHub.com/dedevillela/Banner-Plugin/issues) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4c2ae28ea23a466e9845b9cbc8b2aaca)](https://www.codacy.com/app/dedevillela/Banner-Plugin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dedevillela/Banner-Plugin&amp;utm_campaign=Badge_Grade)
 
 A Banner plugin with shortcode support.
 
